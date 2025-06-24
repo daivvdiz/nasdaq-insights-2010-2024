@@ -11,6 +11,7 @@ Analizar cómo diferentes activos financieros y decisiones de política monetari
 - El dataset fue extraído de Kaggle, ya limpio y preparado. No se requirió limpieza previa.
 - **📂 Dataset licenciado bajo [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0); Fuente: [NASDAQ dataset – Sai Karthik (Kaggle)](https://www.kaggle.com/datasets/sai14karthik/nasdq-dataset)**
 - El dataset está disponible en formato `.csv` está en la carpeta `./Resources/Data`
+- El análisis realizado en Microsoft Excel en formato `.xlsx` está en la carpeta `./Resources/Data`
 
 
 🔑 Este proyecto está licenciado bajo la [Licencia Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0).
