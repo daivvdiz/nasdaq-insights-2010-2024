@@ -1,6 +1,6 @@
 # NASDAQ Insights (2010 – 2024)
 
-Este proyecto contiene un análisis descriptivo del índice NASDAQ entre 2010 y 2024, con énfasis en su relación con indicadores macroeconómicos como el oro, el petróleo y la tasa de fondos federales (EFFR). Se exploran los efectos de la política monetaria y de eventos externos como el COVID-19 sobre el comportamiento del mercado bursátil, usando herramientas como Excel y documentación en markdown.
+Este proyecto contiene un análisis descriptivo del comportamiento del índice NASDAQ, comparándolo con el comportamiento del oro, el petróleo y la tasa EFFR entre 2010 y 2024.
 
 ## 📌 Objetivo
 
@@ -10,5 +10,7 @@ Analizar cómo diferentes activos financieros y decisiones de política monetari
 
 - El dataset fue extraído de Kaggle, ya limpio y preparado. No se requirió limpieza previa.
 - **📂 Dataset licenciado bajo [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0); Fuente: [NASDAQ dataset – Sai Karthik (Kaggle)](https://www.kaggle.com/datasets/sai14karthik/nasdq-dataset)**
+- El dataset está disponible en formato `.csv` está en la carpeta `./Resources/Data`
+
 
 🔑 Este proyecto está licenciado bajo la [Licencia Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0).
