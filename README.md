@@ -1,34 +1,45 @@
-# NASDAQ Insights (2010 – 2024)
+# NASDAQ Insights (2010–2025)
 
-Este proyecto contiene un análisis descriptivo del comportamiento del índice NASDAQ, comparándolo con el comportamiento del oro, el petróleo y la tasa EFFR entre 2010 y 2024.
+This project contains a **descriptive analysis** of the NASDAQ index’s behavior, compared with the performance of **gold**, **oil**, and the **EFFR interest rate** between 2010 and 2025.
 
-## 📌 Objetivo
+While the full data range is considered for context, the core analytical focus narrows to **2015–2025**, to reduce noise from early post-crisis volatility and highlight more stable macroeconomic dynamics.
 
-Analizar cómo diferentes activos financieros y decisiones de política monetaria (como la tasa de interés) han impactado el crecimiento del NASDAQ en los últimos 14 años.
+## 📌 Objective
 
-## 📈 Contenido
+To examine how monetary policy decisions and macroeconomic shocks—especially **COVID-19**, **EFFR rate changes**, and **sector-specific momentum**—have influenced NASDAQ’s growth and cyclical behavior in the last decade.
 
-- Crecimiento Total (CT%) y Crecimiento Anual Compuesto (CAGR%) del NASDAQ, el oro y el petróleo.
-- Visualización de comportamientos por trimestres y años.
-- Análisis cualitativo del impacto de eventos como el COVID-19 y las decisiones de la Fed.
-- Exploración del comportamiento del oro como activo refugio en contextos de incertidumbre.
+## 📈 Contents
 
-## 🧠 Análisis
+- CT% (Total Growth) and CAGR% (Compound Annual Growth Rate) for NASDAQ, gold, and oil.
+- Time series visualizations by **quarter** and **year**.
+- Interpretation of market dynamics in periods of low interest rates and economic stimulus.
+- Exploration of **gold as a safe-haven asset** during monetary shifts.
+- Detection of **repeating seasonal investment patterns** in the NASDAQ‑100.
 
-- Puedes consultar el análisis completo en [NASDAQ vs Resources](NASDAQ%20vs%20Resources.md)
-- Gráficos usados están disponibles en la carpeta `./Resources/Charts`
+## 🔍 Key Finding
+
+A recurring pattern was identified:  
+> After a NASDAQ‑100 dip in **Q4**, there tends to be a strong **Q1 rebound**, followed by 2–3 years of moderate, consistent growth.
+
+According to current 2025 data, this cycle may be repeating. Based on the observed trend, **Q3 2025 could present a strategic investment entry point**, provided monetary conditions remain stable.
+
+## 🧠 Full Analysis
+
+- Read the full analysis here: [`nasdaq-vs-resources.md`](nasdaq-vs-resources.md)
+- All supporting charts are available in the `./Resources/Charts` folder.
 
 ## 📊 Dataset
 
-- El dataset fue extraído de Kaggle, ya limpio y preparado. No se requirió limpieza previa.
-- **📂 Dataset licenciado bajo [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0); Fuente: [NASDAQ dataset – Sai Karthik (Kaggle)](https://www.kaggle.com/datasets/sai14karthik/nasdq-dataset)**
-- El dataset está disponible en formato `.csv` está en la carpeta `./Resources/Data`
-- El análisis realizado en Microsoft Excel en formato `.xlsx` está en la carpeta `./Resources/Data`
+- Dataset sourced from Kaggle: [NASDAQ dataset – Sai Karthik](https://www.kaggle.com/datasets/sai14karthik/nasdq-dataset)
+- **Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)**
+- Available in `.csv` and `.xlsx` formats inside `./Resources/Data`.
 
-## 🔮 Próximos pasos
+## 🔮 Next Steps
 
-- Implementar visualizaciones interactivas en Power BI.
-- Añadir una versión del análisis usando Python para modelar series temporales.
+- Implement interactive dashboards in **Power BI**.
+- Add a **Python-based time series model** for forecasting future NASDAQ‑100 behavior.
+- Expand the macroeconomic scope to include inflation data, CPI, and sector-specific indexes.
 
+---
 
-🔑 Este proyecto está licenciado bajo la [Licencia Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+🔑 This project is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
