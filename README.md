@@ -1,4 +1,4 @@
-# NASDAQ Insights (2010–2025)
+# NASDAQ Insights (2015–2025)
 
 This project contains a **descriptive analysis** of the NASDAQ index’s behavior, compared with the performance of **gold**, **oil**, and the **EFFR interest rate** between 2010 and 2025.
 
